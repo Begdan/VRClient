@@ -1245,8 +1245,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3520775ef5d18004db39d7eb82618f9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveReference: {fileID: 2802459769528798632, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  scaleReference: {fileID: -4413229157571622057, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  changeModeReference: {fileID: 7475979392898659823, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  movementSpeed: 3
+  scaleSpeed: 3
+  rotationSpeed: 20
   anchor: {fileID: 1592641537}
-  prefab: {fileID: 6401272653628389563, guid: 556e24279ff7d374aacf401ca4c20102, type: 3}
   uiController: {fileID: 720954390}
 --- !u!114 &720954390
 MonoBehaviour:
